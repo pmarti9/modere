@@ -1,0 +1,18 @@
+input { 
+    width: 40%;
+}
+#radioButtons {
+    align-items: left;
+}
+hr {
+    width: 50%
+}
+body {
+    font-family: Montserrat;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        size: 50%
+    }
+}
