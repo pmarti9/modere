@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
+
 <body>
     <br><br>
-    <hr>
-    <div id=radioButtons>
-    <h3>Invite by email or text</h3>
-    <input type="radio" id="emailaddress" name="emailaddress" value="emailaddress">
-<label for="emailaddress">Email</label><br>
-    <input type="radio" id="text" name="text" value="text">
-<label for="text">Text</label><br>
-</div>
-    <form>
-        <label for="name">THE RECIPIENT OF THE EMAIL OR TEXT</label><br>
-        <input type="text" id="fullname" name="name"><br><br>
-        <label for="displayname">HOW YOU WANT YOUR NAME TO APPEAR IN THE EMAIL OR TEXT</label><br>
-        <input type="text" id="displayname2" name="displayname"><br><br>
-        <label for="email">EMAIL</label><br>
-        <input type="text" id="email" name="email">
-      </form>
-      </form>
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-lg-5">
+                <hr>
+            </div>
+            <div class="col-lg-2">
+                <h5>SHARE THE LOVE</h5>
+            </div>
+            <div class="col-lg-5">
+                <hr>
+            </div>
+        </div>
+    </div>
+    
+    <br />
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-lg-12">
+                <img src="https://res.cloudinary.com/modere/image/upload/v1568920080/Common/socialmedia/sharethelove_meta.jpg" alt="Hero Image"></img>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <!-- paragrap text   -->
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-lg-12">
+                <p>Share the love. Refer your friends! We;ve made it simple and fun. Personalize a message about your experience with Modere, share your code, and receive a $10 credit to spend at Modere when your friends make their first purchase. Those who shop with your code will also receie a $10. credit towards their favorite everyday essentials. Now go on, start sharing.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-lg-6">
+                <div id=radioButtons>
+                    <h4>Invite by Email or Text</h4>
+                    <br />
+                    <form>
+                        <label class="radio-inline">
+                            <input type="radio" name="optradio" checked>Email
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="optradio">Text
+                        </label>
+                        <br /><br />
+                    </form>
+                </div>
+                <div id=formID>
+                    <form>
+                        <label for="name">THE RECIPIENT OF THE EMAIL OR TEXT</label><br>
+                        <input type="text" id="fullname" name="name"><br><br>
+                        <label for="displayname">HOW YOU WANT YOUR NAME TO APPEAR IN THE EMAIL OR TEXT</label><br>
+                        <input type="text" id="displayname2" name="displayname"><br><br>
+                        <label for="email">EMAIL</label><br>
+                        <input type="text" id="email" name="email">
+                    </form>
+                    </form>
+                </div>
+            </div>
+            <!-- right column -->
+            <div class="col-lg-6">
+                <h4>Copy Link</h4>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

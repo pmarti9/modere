@@ -1,16 +1,31 @@
-input { 
-    width: 40%;
+.container {
+    padding-right: -15px;
+    padding-left: -15px
+}
+#email{
+    width: 75%;
+
+}
+#displayname2{
+    width: 75%;
+
+}
+#fullname{
+    width: 75%;
 }
 #radioButtons {
     align-items: left;
 }
 hr {
-    width: 50%
+    width: 100%
 }
 body {
     font-family: Montserrat;
+    margin: 1px
 }
-
+h4 {
+    font-family: Montserrat
+}
 @media only screen and (max-width: 600px) {
     img {
         size: 50%
