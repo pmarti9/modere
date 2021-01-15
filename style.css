@@ -1,6 +1,5 @@
-.container {
-    padding-right: -15px;
-    padding-left: -15px
+.container{
+
 }
 #email{
     width: 75%;
@@ -24,10 +23,73 @@ body {
     margin: 1px
 }
 h4 {
+    font-family: Montserrat;
+}
+h5{
+    font-family: Montserrat;
+    text-align: center;
+    margin-bottom: 50px;
+    down: 20px
+}
+#stl{
+    font-size:
+}
+img {
+    align-items: center;
+    max-width: 1110px;
+}
+.col-sm-12 {
+    padding: inherit;
+}
+#graybox {
+    background-color: lightgray;
+    padding: 20px;
+    justify-items: left;
+    text-align: left;
+}
+#sendinvite{
+    background-color: darkred;
+    width:20%; padding: 3%;
+    color: white;
+
+}
+
+.col-sm-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: inherit;
+}
+.sendinvitetext {
     font-family: Montserrat
 }
-@media only screen and (max-width: 600px) {
+#redbox {
+    background-color: darkred;
+    width: 100%; padding: 10%;
+    justify-items: right;
+}
+#redboxtext {
+    color: white;
+    text-align: center;
+    justify-items: center;
+    font-family: Montserrat
+
+}
+
+#pintrest {
+    font-size: 3;
+}
+@media only screen and (max-width: 850px) {
     img {
-        size: 50%
+        size: 50%;
+        padding: 15%
     }
+}
+
+@media only screen and (min-width: 576px) {
+.col-sm-12 {
+
+    padding: inherit;
+}
 }
